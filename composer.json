@@ -1,0 +1,15 @@
+{
+    "require": {
+        "openai-php/client": "^0.4.2",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {"MeuNamespace\\": "vendor/openai/client/src/"}
+    }
+}
