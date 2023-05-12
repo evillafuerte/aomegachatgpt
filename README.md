@@ -21,4 +21,11 @@ Para a aplicação funcionar corretamente é preciso acrescentar as seguintes li
         "psr-4": {"MeuNamespace\\": "vendor/openai/client/src/"}
     }
     
-Conferir a configuração completa final do arquivo composer.json no arquivo do meu projeto.    
+Conferir a configuração completa final no arquivo composer.json do meu projeto.  
+
+Também é preciso carregar estas configurações do composer na sua aplicação. Para isso basta acrescentar as seguintes linhas de código 
+no início de cada script PHP  que vai fazer uso dass classes em OPENAI-PHP/CLIENT:
+
+require "vendor/autoload.php";
+
+
