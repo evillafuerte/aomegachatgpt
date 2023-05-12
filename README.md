@@ -28,4 +28,6 @@ no início de cada script PHP  que vai fazer uso dass classes em OPENAI-PHP/CLIE
 
 require "vendor/autoload.php";
 
+Os scripts PHP estão numerados sequencialmente começando a numeração em 000 . O arquivo com a menor numeração (aomegachatgpt_000.php) 
+contém o código mínimo inicial. A cada versão com um número sequencial maior acrescento mais recursos e a versão mais completa para testes é a aomegachatgpt_002.php .
 
