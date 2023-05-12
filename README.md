@@ -10,3 +10,15 @@ Se assegure de que o plugin do composer denominado php-http/discovery possa roda
 não tenha um cliente PSR-18 integrado.
 
 > composer require guzzlehttp/guzzle
+
+A configuração do arquivo composer.json é importante para nossa aplicação poder fazer autoload das classes necessárias. Como no meu projeto o composer após instalar o openai-php/client criou uma pasta VENDOR com várias subpastas, e as classes do OPENAI-PHP/CLIENT ficaram no seguinte caminho:
+
+vendor/openai-php/client/src
+
+Para a aplicação funcionar corretamente é preciso acrescentar as seguintes linhas ao composer.json :
+
+    "autoload": {
+        "psr-4": {"MeuNamespace\\": "vendor/openai/client/src/"}
+    }
+    
+Conferir a configuração completa final do arquivo composer.json no arquivo do meu projeto.    
