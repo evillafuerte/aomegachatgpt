@@ -23,6 +23,11 @@ Para a aplicação funcionar corretamente é preciso acrescentar as seguintes li
     
 Conferir a configuração completa final no arquivo composer.json do meu projeto.  
 
+Videos do projeto:
+https://www.youtube.com/watch?v=ER3y6Mhrlhs&list=PL4qJBquKR8kT5blC41gx64ExIdAEMHX1f&index=3 - Apresentação pessoal
+https://www.youtube.com/watch?v=7_a0r6SvdFk&list=PL4qJBquKR8kT5blC41gx64ExIdAEMHX1f&index=2&t=828s - Apresentação do projeto
+
+
 Também é preciso carregar estas configurações do composer na sua aplicação. Para isso basta acrescentar as seguintes linhas de código 
 no início de cada script PHP  que vai fazer uso dass classes em OPENAI-PHP/CLIENT:
 
