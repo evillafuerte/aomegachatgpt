@@ -31,7 +31,9 @@ Os scripts PHP estão numerados sequencialmente começando a numeração em 000 
 contém o código mínimo inicial. A cada versão com um número sequencial maior acrescento mais recursos e a versão mais completa para testes é a aomegachatgpt_002.php .
 
 Videos do projeto:
-https://www.youtube.com/watch?v=ER3y6Mhrlhs&list=PL4qJBquKR8kT5blC41gx64ExIdAEMHX1f&index=3 - Apresentação pessoal
-https://www.youtube.com/watch?v=7_a0r6SvdFk&list=PL4qJBquKR8kT5blC41gx64ExIdAEMHX1f&index=2&t=828s - Apresentação do projeto
+
+- Apresentação pessoal: https://www.youtube.com/watch?v=ER3y6Mhrlhs&list=PL4qJBquKR8kT5blC41gx64ExIdAEMHX1f&index=3 
+
+- Apresentação do projeto: https://www.youtube.com/watch?v=7_a0r6SvdFk&list=PL4qJBquKR8kT5blC41gx64ExIdAEMHX1f&index=2&t=828s 
 
 
